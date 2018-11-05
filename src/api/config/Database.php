@@ -4,8 +4,8 @@ class Database{
     // specify your own database credentials
     private $host = "localhost";
     private $db_name = "inventory";
-    private $username = "root";
-    private $password = "";
+    private $username = "YOUR-DB-USERNAME-HERE";
+    private $password = "YOUR-DB-PASSWORD-HERE";
     public $conn;
  
     // get the database connection
